@@ -6,8 +6,8 @@
     }
   },
   "Itinerario": {
-    "id": { "int": { "min": 0, "max": 1000000 } }},
-    "sequencia": { "int": { "min": 0, "max": 1000000 } }},
+    "id": { "int": { "min": 0, "max": 1000000 } },
+    "sequencia": { "int": { "min": 0, "max": 1000000 } },
     "rota": {
       "belongsTo": "Rota"
     },
@@ -16,7 +16,7 @@
     }
   },
   "Endereco":{
-    "id": { "int": { "min": 0, "max": 1000000 } }},
+    "id": { "int": { "min": 0, "max": 1000000 } },
     "enderecoCompleto":{
        "loremWords": { "minLength": 3, "maxLength": 8 }
     },
