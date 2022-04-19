@@ -1,0 +1,30 @@
+{
+  "Rota": {
+    "id": { "int": {} },
+    "itinerarios": {
+      "hasMany": "Itinerario"
+    }
+  },
+  "Itinerario": {
+    "sequencia": { "id": {} },
+    "rota": {
+      "belongsTo": "Rota"
+    },
+    "Endereco" : {
+     "belongsTo":"Endereco"
+    }
+  },
+  "Endereco":{
+    "enderecoCompleto":{
+       "string":{
+       }
+    },
+    "latitude":{
+       "string":{
+       }
+    },
+    "longitude":{
+       "string":{}
+    }
+  }
+}
