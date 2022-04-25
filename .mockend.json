@@ -1,22 +1,24 @@
 {
-  "Rotas": {
-    "rotas": {
-      "hasMany": "Rota"
+  "Rota": {
+    "rotaDado": {
+      "belongsTo": "RotaDado"
+    },
+    "itinerarios": {
+      "hasMany": "Itinerario"
+    },
+    "pedidos": {
+      "hasMany": "Pedido"
     }
   },
-  "Rota": {
+  "RotaDado": {
     "id": {
-      "int": {
-        "min": 1000,
-        "max": 100000
-      }
+      "int": [
+        1050
+      ]
     },
     "motorista": {
       "int": [
-        100,
-        200,
-        300,
-        400
+        300
       ]
     },
     "numeroRota": {
@@ -24,12 +26,6 @@
         "min": 1,
         "max": 50
       }
-    },
-    "itinerarios": {
-      "hasMany": "Itinerario"
-    },
-    "pedidos": {
-      "hasMany": "Pedido"
     }
   },
   "Pedido": {
