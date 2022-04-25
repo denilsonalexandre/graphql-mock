@@ -1,7 +1,7 @@
 {
   "Rota": {
     "rotaDado": {
-      "belongsTo": "RotaDado"
+      "belongsTo": "Rotadado"
     },
     "itinerarios": {
       "hasMany": "Itinerario"
@@ -10,7 +10,7 @@
       "hasMany": "Pedido"
     }
   },
-  "RotaDado": {
+  "Rotadado": {
     "id": {
       "int": [
         1050
