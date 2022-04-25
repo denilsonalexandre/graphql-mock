@@ -1,8 +1,5 @@
 {
   "Rota": {
-    "rotaDado": {
-      "belongsTo": "Rotadado"
-    },
     "itinerarios": {
       "hasMany": "Itinerario"
     },
