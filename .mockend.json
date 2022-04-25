@@ -29,7 +29,7 @@
   },
   "Pedido": {
     "numeroPedido": {
-      "int": [
+      "string": [
         "125",
         "155",
         "325",
@@ -39,7 +39,7 @@
       ]
     },
     "codigoItinerario": {
-      "int": [
+      "string": [
         "10",
         "20",
         "30",
