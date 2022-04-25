@@ -7,7 +7,6 @@
       "hasMany": "Pedido"
     }
   },
-  "Rotadado": {},
   "Pedido": {
     "numeroPedido": {
       "string": [
