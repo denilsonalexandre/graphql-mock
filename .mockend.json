@@ -10,24 +10,7 @@
       "hasMany": "Pedido"
     }
   },
-  "Rotadado": {
-    "id": {
-      "int": [
-        1050
-      ]
-    },
-    "motorista": {
-      "int": [
-        300
-      ]
-    },
-    "numeroRota": {
-      "int": {
-        "min": 1,
-        "max": 50
-      }
-    }
-  },
+  "Rotadado": {},
   "Pedido": {
     "numeroPedido": {
       "string": [
