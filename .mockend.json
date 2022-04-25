@@ -1,4 +1,9 @@
 {
+  "Rotas": {
+    "rotas": {
+      "hasMany": "Rota"
+    }
+  },
   "Rota": {
     "id": {
       "int": {
