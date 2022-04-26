@@ -16,31 +16,11 @@
         45
       ]
     },
-    "rotaDado": {
-      "belongsTo": "Rotadado"
-    },
     "itinerarios": {
       "hasMany": "Itinerario"
     },
     "pedidos": {
       "hasMany": "Pedido"
-    }
-  },
-  "Rotadado": {
-    "id": {
-      "int": [
-        1050
-      ]
-    },
-    "motorista": {
-      "int": [
-        300
-      ]
-    },
-    "numeroRota": {
-      "int": [
-        45
-      ]
     }
   },
   "Pedido": {
