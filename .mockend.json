@@ -6,6 +6,16 @@
         "max": 10000
       }
     },
+    "motorista": {
+      "int": [
+        300
+      ]
+    },
+    "numeroRota": {
+      "int": [
+        45
+      ]
+    },
     "rotaDado": {
       "belongsTo": "Rotadado"
     },
