@@ -16,60 +16,62 @@
         45
       ]
     },
-    "itinerarios": [
-      {
-        "id": {
-          "int": [
-            675
-          ]
-        },
-        "codigoItinerario": {
-          "string": [
-            "20"
-          ]
-        },
-        "distanciaTotalEstimada": {
-          "int": [
-            25
-          ]
-        },
-        "sequencia": {
-          "int": {
-            "min": 0,
-            "max": 1000000
+    "itinerarios": {
+      "<type>": [
+        {
+          "id": {
+            "int": [
+              675
+            ]
+          },
+          "codigoItinerario": {
+            "string": [
+              "20"
+            ]
+          },
+          "distanciaTotalEstimada": {
+            "int": [
+              25
+            ]
+          },
+          "sequencia": {
+            "int": {
+              "min": 0,
+              "max": 1000000
+            }
+          },
+          "Endereco": {
+            "belongsTo": "Endereco"
           }
         },
-        "Endereco": {
-          "belongsTo": "Endereco"
-        }
-      },
-      {
-        "id": {
-          "int": [
-            750
-          ]
-        },
-        "codigoItinerario": {
-          "string": [
-            "57"
-          ]
-        },
-        "distanciaTotalEstimada": {
-          "int": [
-            35
-          ]
-        },
-        "sequencia": {
-          "int": {
-            "min": 0,
-            "max": 1000000
+        {
+          "id": {
+            "int": [
+              750
+            ]
+          },
+          "codigoItinerario": {
+            "string": [
+              "57"
+            ]
+          },
+          "distanciaTotalEstimada": {
+            "int": [
+              35
+            ]
+          },
+          "sequencia": {
+            "int": {
+              "min": 0,
+              "max": 1000000
+            }
+          },
+          "Endereco": {
+            "belongsTo": "Endereco"
           }
-        },
-        "Endereco": {
-          "belongsTo": "Endereco"
         }
-      }
-    ],
+      ]
+    },
     "pedidos": {
       "belongsTo": "Pedido"
     }
