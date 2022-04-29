@@ -94,6 +94,32 @@
       ]
     }
   },
+  "Itinerario": {
+    "id": {
+      "int": [
+        675
+      ]
+    },
+    "codigoItinerario": {
+      "string": [
+        "20"
+      ]
+    },
+    "distanciaTotalEstimada": {
+      "int": [
+        25
+      ]
+    },
+    "sequencia": {
+      "int": {
+        "min": 0,
+        "max": 1000000
+      }
+    },
+    "Endereco": {
+      "belongsTo": "Endereco"
+    }
+  },
   "Endereco": {
     "id": {
       "int": {
