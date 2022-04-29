@@ -17,7 +17,7 @@
       ]
     },
     "itinerarios": {
-      "<type>": [
+      "array": [
         {
           "id": {
             "int": [
