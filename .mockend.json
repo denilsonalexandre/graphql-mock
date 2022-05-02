@@ -66,8 +66,8 @@
       ]
     },
     "codigoVendedor": {
-      "string": [
-        "3602"
+      "int": [
+        3602
       ]
     }
   },
