@@ -35,21 +35,7 @@
       ]
     },
     "vendedor": {
-      "nomeCompleto": {
-        "string": [
-          "Antônio da silva Moraes"
-        ]
-      },
-      "apelido": {
-        "string": [
-          "Tonhão"
-        ]
-      },
-      "codigoVendedor": {
-        "string": [
-          "3602"
-        ]
-      }
+      "belongsTo": "Vendedor"
     },
     "cliente": {
       "belongsTo": "Cliente"
@@ -60,6 +46,23 @@
     "statusPedido": {
       "string": [
         "Em transito"
+      ]
+    }
+  },
+  "Vendedor": {
+    "nomeCompleto": {
+      "string": [
+        "Antônio da silva Moraes"
+      ]
+    },
+    "apelido": {
+      "string": [
+        "Tonhão"
+      ]
+    },
+    "codigoVendedor": {
+      "string": [
+        "3602"
       ]
     }
   },
