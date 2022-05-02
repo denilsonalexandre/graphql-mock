@@ -34,6 +34,11 @@
         "20"
       ]
     },
+    "vendedor": {
+      "nomeCompleto": "Antônio da silva Moraes",
+      "apelido": "Tonhão",
+      "codigoVendedor": "3602"
+    },
     "cliente": {
       "belongsTo": "Cliente"
     },
