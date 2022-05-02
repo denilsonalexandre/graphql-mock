@@ -35,9 +35,21 @@
       ]
     },
     "vendedor": {
-      "nomeCompleto": "Antônio da silva Moraes",
-      "apelido": "Tonhão",
-      "codigoVendedor": "3602"
+      "nomeCompleto": {
+        "string": [
+          "Antônio da silva Moraes"
+        ]
+      },
+      "apelido": {
+        "string": [
+          "Tonhão"
+        ]
+      },
+      "codigoVendedor": {
+        "string": [
+          "3602"
+        ]
+      }
     },
     "cliente": {
       "belongsTo": "Cliente"
